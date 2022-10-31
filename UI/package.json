@@ -1,0 +1,63 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "hrforecast UI tech-task",
+  "main": "index.js",
+  "scripts": {
+    "dev": "react-scripts start"
+  },
+  "author": "peopleForecast GmbH <info@hrforecast.de> (https://www.hrforecast.de/)",
+  "license": "MIT",
+  "files": [
+    "api",
+    "components",
+    "constants",
+    "hooks",
+    "themes",
+    "translations",
+    "layouts"
+  ],
+  "dependencies": {
+    "@tanstack/react-query": "^4.13.5",
+    "intl": "^1.2.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-intl": "^6.2.1",
+    "react-query": "^3.39.2",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.5.4",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.14.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recommended": "^9.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-prettier": "^2.0.0",
+    "stylelint-processor-styled-components": "^1.10.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
