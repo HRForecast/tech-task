@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "hrforecast UI tech-task",
   "main": "index.js",
+  "private": true,
+  "repository": "https://github.com/HRForecast/tech-task.git",
   "scripts": {
     "dev": "react-scripts start"
   },
@@ -13,12 +15,15 @@
     "components",
     "constants",
     "hooks",
+    "mocks",
     "themes",
     "translations",
-    "layouts"
+    "layouts",
+    "utils"
   ],
   "dependencies": {
     "@tanstack/react-query": "^4.13.5",
+    "axios": "^1.1.3",
     "intl": "^1.2.5",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
